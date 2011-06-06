@@ -5,6 +5,7 @@
 ; Build out the various manifest files
 GenX build(
   "src/main/res/values/strings.xml"       => "strings.ik",
+  "tests/src/main/AndroidManifest.xml"    => "test_manifest.ik",
   "src/main/AndroidManifest.xml"          => "manifest.ik")
 
 
