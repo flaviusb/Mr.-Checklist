@@ -1,4 +1,4 @@
-!/usr/bin/env byeloblog.ik
+#!/usr/bin/env byeloblog.ik
 
 ; This now depends on [Byeloblog](http://byeloblog.net) to build
 
