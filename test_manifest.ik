@@ -1,0 +1,5 @@
+''(`doctype("xml") `comment("Licenced under the GNU GPL v2") manifest({"android:versionName" => 0.1, "android:versionCode" => 1, "package" => "com.metatoaster.checklist.tests", "xmlns:android" => "http://schemas.android.com/apk/res/android"})
+  ^usesSdk(android:minSdkVersion: "8")
+  application ^usesLibrary(android:name: "android.test.runner")
+  instrumentation(android:label: "Tests", android:targetPackage: "net.flaviusb.picturetags", android:name: "android.test.InstrumentationTestRunner")
+)
